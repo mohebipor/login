@@ -1,0 +1,68 @@
+.signup {
+          position: relative;
+          height: 100%;
+          width: 100%;
+          
+}
+
+label{
+          color: #ffcc00;
+          font-size: 2.3em;
+          justify-content: center;
+          display: flex;
+          margin: 60px ;
+          font-weight: bold;
+          cursor: pointer;
+          transition: .5s ease-in-out;
+          
+}
+
+input {
+          width: 60%;
+          height: 20px;
+          background: #ffffff;
+          justify-content: center;
+          display: flex;
+          margin: 20px auto;
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 5px; 
+}
+
+.signup button {
+          width: 60%;
+          height: 40px;
+          margin: 10px auto;
+          background: #ffcc00;
+          justify-content: center;
+          display: block;
+          color: #000000;
+          font-size: 1em;
+          font-weight: bold;
+          margin-top: 20px;
+          border: none;
+          outline: none;
+          border-radius: 20px; 
+          transition: .2s ease-in;
+          cursor: pointer;
+}
+
+.login button {
+          width: 60%;
+          height: 40px;
+          margin: 10px auto;
+          background: #000000;
+          justify-content: center;
+          display: block;
+          color: #ffcc00;
+          font-size: 1em;
+          font-weight: bold;
+          margin-top: 20px;
+          border: none;
+          outline: none;
+          border-radius: 20px; 
+          transition: .2s ease-in;
+          cursor: pointer;
+}
+

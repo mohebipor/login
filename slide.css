@@ -1,0 +1,27 @@
+body{
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          font-family: 'Jost', sans-serif;
+          background: linear-gradient(to bottom, #866407, #63572b, #3e3724);
+
+}
+
+.main{
+          width: 350px;
+          height: 500px;
+          background: #000000;
+          border-radius: 10px;
+          box-shadow: 5px 20px 40px #000;
+          overflow: hidden;
+}
+#chk {
+          display: none;
+}
+
+.main img {
+          size: 10px;
+}

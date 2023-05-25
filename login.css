@@ -1,0 +1,35 @@
+button:hover {
+          background: #ffcc00;
+         
+}
+
+.login {
+          height: 400px;
+          background: #ffcc00;
+          border-radius: 60% / 15%;
+          transform: translateY(-180px);
+          transition: .6s ease-in-out;
+          color: #000000;
+}
+
+.login label {
+          color:#000000;
+          transform: scale(.6);
+          
+
+}
+
+#chk:checked~.login {
+          transform: translateY(-480px);
+}
+
+
+#chk:checked~.signup label{
+          transform: scale(10);
+}
+
+#chk:checked~.signup label{
+          transform: scale(.6);
+}
+
+
